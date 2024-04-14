@@ -1,0 +1,40 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:strength",
+                    "duration": 100,
+                    "amplifier": 1,
+                    "show_particles": false,
+                    "show_icon": true
+                }
+            },
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:speed",
+                    "duration": 100,
+                    "amplifier": 1,
+                    "show_particles": false,
+                    "show_icon": true
+                }
+            }
+        ]
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:biome",
+        "condition": {
+            "type": "origins:temperature",
+            "comparison": "<=",
+            "compare_to": 0
+        }
+    },
+    "name": "cold",
+    "description": "you thrive in cold biomes"
+}
+

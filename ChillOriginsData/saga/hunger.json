@@ -1,0 +1,13 @@
+{
+    "type": "origins:modify_food",
+    "food_modifier": {
+        "operation": "addition",
+        "value": 2
+    },
+    "saturation_modifier": {
+        "operation": "addition",
+        "value": 1
+    },
+    "name": "idk",
+    "description": "idk forgot what this does"
+}

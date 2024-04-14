@@ -1,0 +1,17 @@
+{
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+        "type": "origins:target_action",
+        "action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:glowing",
+                "duration": 400,
+                "amplifier": 0,
+                "show_particles": false
+            }
+        }
+    },
+    "name": "glow hit",
+    "description": "when you hit something, it glows" 
+}

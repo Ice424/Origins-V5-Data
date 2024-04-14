@@ -1,0 +1,9 @@
+{
+    "type": "origins:starting_equipment",
+    "stack": {
+            "item": "carved_pumpkin",
+            "tag": "{CustomModelData:3}",
+            "slot": 39
+        },
+    "hidden": true
+}

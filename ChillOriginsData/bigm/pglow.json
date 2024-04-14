@@ -1,0 +1,140 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": true,
+        "key": {
+            "key": "key.origins.secondary_active"
+        },
+        "retain_state": false
+    },
+    "low": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        },
+        "type": "origins:entity_glow",
+        "entity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:relative_health",
+                    "comparison": "<",
+                    "compare_to": 0.5
+                },
+                {
+                    "type": "origins:living"
+                }
+            ]
+        },
+        "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+            ]
+        },
+        "use_teams": false,
+        "red": 1,
+        "green": 0,
+        "blue": 0
+    },
+    "mid": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        },
+        "type": "origins:entity_glow",
+        "entity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:relative_health",
+                    "comparison": ">=",
+                    "compare_to": 0.5
+                },
+                {
+                    "type": "origins:relative_health",
+                    "comparison": "<",
+                    "compare_to": 0.8
+                },
+                {
+                    "type": "origins:living"
+                }
+            ]
+        },
+        "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+            ]
+        },
+        "use_teams": false,
+        "red": 1,
+        "green": 0.65,
+        "blue": 0
+    },
+    "high": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        },
+        "type": "origins:entity_glow",
+        "entity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:relative_health",
+                    "comparison": ">=",
+                    "compare_to": 0.8
+                },
+                {
+                    "type": "origins:relative_health",
+                    "comparison": "<",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:living"
+                }
+            ]
+        },
+        "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+            ]
+        },
+        "use_teams": false,
+        "red": 0,
+        "green": 1,
+        "blue": 0
+    },
+    "max": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        },
+        "type": "origins:entity_glow",
+        "entity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:relative_health",
+                    "comparison": "==",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:living"
+                }
+            ]
+        },
+        "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+            ]
+        },
+        "use_teams": false,
+        "red": 0,
+        "green": 0.3,
+        "blue": 1
+    },
+    "name" :"entity's glow around you based on their health",
+    "description": "entity's glow around you based on their health"
+}

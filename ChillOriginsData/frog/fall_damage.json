@@ -1,0 +1,32 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:set_fall_distance",
+        "fall_distance": 0
+    },
+    "falling_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:area_of_effect",
+                "radius": 8,
+                "bientity_action": {
+                    "type": "origins:add_velocity",
+                    "client": true,
+                    "z": 0.3,
+                    "y": 0.89
+                }
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "power remove @s chill:frog/fall_damage"
+            }
+        ]
+    },
+    "interval": 1,
+    "condition": {
+        "type": "origins:on_block",
+        "inverted": true
+    },
+    "hidden": true
+}

@@ -1,0 +1,12 @@
+{
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:from_falling"
+    },
+    "modifier": {
+        "operation": "add_base_late",
+        "value": 3.5
+    },
+    "name": "falling",
+    "description": "you fall faster"
+}

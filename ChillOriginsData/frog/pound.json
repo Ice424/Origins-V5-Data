@@ -1,0 +1,24 @@
+{
+    "type": "origins:action_on_land",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:area_of_effect",
+                "radius": 8,
+                "bientity_action": {
+                    "type": "origins:add_velocity",
+                    "client": true,
+                    "z": 1.6,
+                    "y": 0.6
+                }
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "power remove @s chill:frog/fall_damage"
+            }
+        ]
+    },
+    "name": "ground pound",
+    "description": "when you fall from a high enough distance you deal knock back to mobs"
+}

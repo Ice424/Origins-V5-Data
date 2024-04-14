@@ -1,0 +1,29 @@
+{
+    "type": "origins:modify_jump",
+    "modifier": {
+        "operation": "addition",
+        "value": 1.2
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "particle cloud ~ ~ ~ 0.3 0.3 0.3 0.01 16 normal @a"
+            },
+            {
+                "type": "origins:grant_power",
+                "power": "chill:short/fall_damage",
+                "source": "chill:jump"
+            },
+            {
+                "type": "origins:dismount"
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:sneaking"
+    },
+    "name": "jump",
+    "description": "by crouching  you can jump high"
+}

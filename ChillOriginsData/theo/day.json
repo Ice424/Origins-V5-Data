@@ -1,0 +1,40 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:weakness",
+                "duration": 100,
+                "amplifier": 1
+                }
+            },
+            {
+                "type": "origins:apply_effect",
+                    "effect": {
+                    "effect": "minecraft:slowness",
+                    "duration": 100,
+                    "amplifier": 1
+                }
+            }
+        ]
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:exposed_to_sun"
+            },
+            {
+                "type": "origins:status_effect",
+                "effect": "minecraft:invisibility",
+                "inverted": true
+            }
+        ]
+    },
+    "name": "day",
+    "description": "the sun is bad avoid it at all costs"
+}

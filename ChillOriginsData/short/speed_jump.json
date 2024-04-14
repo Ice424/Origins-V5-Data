@@ -1,0 +1,8 @@
+{
+    "type": "origins:modify_velocity",
+    "modifier": {
+        "value": 1.5,
+        "operation": "multiply_total"
+    },
+    "hidden": "true"
+}

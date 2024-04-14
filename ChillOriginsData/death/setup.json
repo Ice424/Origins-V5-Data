@@ -1,0 +1,42 @@
+{
+    "type": "origins:action_on_callback",
+    "entity_action_gained": {
+        "type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+                "command": "scoreboard objectives add health health"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "gamemode spectator @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "tag give @s death"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "scoreboard objectives add spectator dummy"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "scoreboard players set @s spectator 10"
+			}
+		]
+    },
+    "entity_action_lost": {
+        "type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"command": "gamemode survival"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "tag remove @s death"
+			}
+		]
+    },
+    "execute_chosen_when_orb": true
+}

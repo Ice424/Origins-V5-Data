@@ -1,0 +1,24 @@
+{
+    "type": "origins:target_action_on_hit",
+    "entity_action": {
+        "type": "origins:damage",
+        "amount": 3,
+        "source": {
+            "name": "onFire",
+            "fire": true,
+            "bypasses_armor": true
+        },
+        "damage_condition": {
+            "type": "origins:projectile",
+            "projectile": "minecraft:snowball"
+        }
+    },
+    "cooldown": 0.0001,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "should_render": true,
+        "bar_index": 13
+    },
+    "name": "crab game",
+    "desciption": "look i made snowballs do damage"
+}

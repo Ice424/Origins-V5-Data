@@ -1,0 +1,21 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:slowness",
+            "duration": 50,
+            "amplifier": 1,
+            "show_particles": false,
+            "show_icon": false
+        }
+    },
+    "interval": 20,
+    "name": "slowness",
+    "description": "Your slow der",
+    "condition": {
+        "type": "origins:power_active",
+        "power": "chill:ferrari/transform",
+        "inverted": true
+    }
+}

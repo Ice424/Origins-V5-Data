@@ -1,0 +1,7 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "execute if score @a[tag=!death] health > @s spectator run gamemode spectator"
+    }
+}
