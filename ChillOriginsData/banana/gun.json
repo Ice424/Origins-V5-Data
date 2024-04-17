@@ -9,7 +9,7 @@
             "count": 1,
             "speed": 1.7,
             "divergence": 1,
-            "tag": "{\"Pickup\": \"0b\"}"
+            "tag": "{Pickup: 0b}"
          },
          {
             "type": "origins:change_resource",
