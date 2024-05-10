@@ -89,8 +89,8 @@
     - [ ] haste 1
     - [ ] speed 1
   - [ ] High
-    - [x] Extra reach
-    - [x] Permanent speed 2
+    - [x] ~~Extra reach~~
+    - [x] ~~Permanent speed 2~~
     - [ ] Double damage to hostile mobs
     - [ ] Permanent saturation
     - [ ] Permanent hero of the village
