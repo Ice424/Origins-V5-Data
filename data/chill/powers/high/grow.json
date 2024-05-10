@@ -5,7 +5,7 @@
 		"actions": [
 			{
 				"type": "origins:execute_command",
-				"command": "scale set pehkui:base 1.5 @s"
+				"command": "scale set pehkui:hight 1.5 @s"
 			},
 			{
 				"type": "origins:execute_command",
@@ -13,13 +13,22 @@
 			},
 			{
 				"type": "origins:execute_command",
-				"command": "scale set pehkui:reach .0 @s"
+				"command": "scale set pehkui:with 1.5 @s"
 			}
 		]
 	},
 	"entity_action_lost": {
-		"type": "origins:execute_command",
-		"command": "scale reset @s"
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"command": "scale reset pehkui:hight 1.5 @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "scale reset pehkui:with 1.5 @s"
+			}
+		]
 	},
 	"name": "Grow",
 	"description": "You grow a block taller"
