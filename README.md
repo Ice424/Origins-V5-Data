@@ -67,7 +67,7 @@
     - [ ] Ability to create wall of stone
     - [ ] Ability to create ring of fire around themselves
     - [ ] Rage increased speed dmg for short period? #maybe
-    - [ ] block all dmg for 3- [ ]5 seconds
+    - [ ] block all dmg for 3-5 seconds
 - [ ] Cleric
   - [ ] Passive
     - [ ] 9 hearts
@@ -89,10 +89,10 @@
     - [ ] haste 1
     - [ ] speed 1
   - [ ] High
-    - [ ] Extra reach
-    - [ ] Permanent speed 2
+    - [x] Extra reach
+    - [x] Permanent speed 2
     - [ ] Double damage to hostile mobs
-    - [ ] Permanent saturation 3
+    - [ ] Permanent saturation
     - [ ] Permanent hero of the village
     - [ ] gain strength 2 and resistance 2 for 10 seconds 
     - [ ] arrows have random harmful effect
