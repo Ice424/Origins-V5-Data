@@ -79,7 +79,7 @@
     - [ ] Shifting for 10 seconds resorts hunger and hearts and gives extra hearts
   - [ ] Special
     - [ ] Permanent luck
-    - [ ] Totem of undying- [ ] cooldown 10 mins
+    - [ ] Totem of undying-cooldown 10 mins
     - [ ] Ability to summon hostile mobs to fight
     - [ ] Ability to see all players within 7 blocks
 - [ ] Fighter
