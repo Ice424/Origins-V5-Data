@@ -1,0 +1,10 @@
+{
+    "type": "origins:inventory",
+    "container_type": "hopper",
+    "drop_on_death": false,
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "name": "inventory",
+    "description": "you have 5 extra inventory slots they stay with you on death"
+}

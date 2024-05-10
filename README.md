@@ -102,7 +102,7 @@
 - [ ] Low tier
   - [ ] + half a heart (to 5 hearts)
   - [ ] + 20 levels 
-  - [ ] - [ ] hunger loss  (5%, 15, 25%)
+  - [ ] - hunger loss  (5%, 15, 25%)
   - [ ] + more xp gain (5%, 15%, 25% times)
   - [ ] + more swim speed (5%, 15%, 25% times)
   - [ ] + hunger gain (1.5 hunches)
@@ -111,8 +111,8 @@
   - [ ] + 1 level of luck (to 5)
 - [ ] General high tier
   - [ ] Shift Jump(w out fall dmg from the jump) 
-  - [ ] shulk ability (storage space)
+  - [x] ~~shulk ability (storage space)~~
   - [ ] activate permeation for 10 seconds cooldown 5 minutes 
-  - [ ] scan (give all entities in 20 block glowing for 2 seconds)
+  - [x] ~~scan (give all entities in 20 block glowing for 2 seconds)~~
   - [ ] make 1 block taller 
   - [ ] make half a block shorter but loose 2 hearts (4 health)
