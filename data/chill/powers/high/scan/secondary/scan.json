@@ -5,7 +5,7 @@
     },
     "entity_action": {
         "type": "origins:area_of_effect",
-        "radius": 20,
+        "radius": 40,
         "shape": "sphere",
         "bientity_action": {
             "type": "origins:target_action",
@@ -13,11 +13,17 @@
                 "type": "origins:apply_effect",
                 "effect": {
                     "effect": "minecraft:glowing",
-                    "duration": 40,
+                    "duration": 80,
                     "amplifier": 1,
-                    "show_particles": true
+                    "show_particles": false
                 }
             }
         }
+    },
+    "cooldown": 100,
+    "hud_render": {
+        "should_render": true,
+        "bar_index": 7,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png"
     }
 }
