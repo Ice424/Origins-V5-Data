@@ -1,0 +1,36 @@
+{
+	"type": "origins:action_on_callback",
+	"entity_action_gained": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"command": "scale add pehkui:base -0.5 @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "scale persist set true @s"
+			},
+			{
+				"type": "origins:grant_power",
+				"power": "chill:high/shrink/health",
+				"source": "chill:shrink"
+			}
+		]
+	},
+	"entity_action_lost": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"command": "scale add pehkui:base 0.5 @s"
+			},
+			{
+				"type": "origins:remove_power",
+				"power": "chill:high/shrink/health"
+			}
+		]
+	},
+	"name": "Grow",
+	"description": "You grow a block taller"
+}

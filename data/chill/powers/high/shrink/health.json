@@ -1,0 +1,10 @@
+{
+    "type": "origins:modify_attribute",
+    "attribute": "minecraft:generic.max_health",
+    "modifier": {
+        "modifier": {
+            "operation": "add_base_early",
+            "value": -4
+        }
+    }
+}
