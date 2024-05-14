@@ -114,5 +114,5 @@
   - [x] ~~shulk ability (storage space)~~
   - [x] ~~activate permeation for 10 seconds cooldown 5 minutes~~ 
   - [x] ~~scan (give all entities in 20 block glowing for 2 seconds)~~
-  - [ ] make 1 block taller 
+  - [x] ~~make 1 block taller ~~
   - [ ] make half a block shorter but loose 2 hearts (4 health)
