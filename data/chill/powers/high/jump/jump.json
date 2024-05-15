@@ -1,26 +1,62 @@
 {
-    "type": "origins:modify_jump",
-    "modifier": {
-        "operation": "addition",
-        "value": 0.4
+    "type": "origins:multiple",
+    "jump": {
+        "type": "origins:modify_jump",
+        "modifier": {
+            "operation": "addition",
+            "value": 0.4
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle cloud ~ ~ ~ 0.3 0.3 0.3 0.01 16 normal @a"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_falling",
+                    "change": 17
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:sneaking"
+        },
+        "name": "jump",
+        "description": "by crouching you can jump high"
     },
-    "entity_action": {
-        "type": "origins:and",
-        "actions": [
-            {
-                "type": "origins:execute_command",
-                "command": "particle cloud ~ ~ ~ 0.3 0.3 0.3 0.01 16 normal @a"
-            },
-            {
-                "type": "origins:change_resource",
-                "resource": "chill:high/jump/falling",
-                "change": 17
-            }
-        ]
+    "falling": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 17,
+        "hud_render": {
+            "should_render": false
+        }
     },
-    "condition": {
-        "type": "origins:sneaking"
-    },
-    "name": "jump",
-    "description": "by crouching you can jump high"
+    "fall_damage": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:set_fall_distance",
+                    "fall_distance": 0
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_falling",
+                    "change": -1
+                }
+            ]
+        },
+        "interval": 1,
+        "hidden": true,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_falling",
+            "comparison": ">=",
+            "compare_to": 1
+        }
+    }
 }

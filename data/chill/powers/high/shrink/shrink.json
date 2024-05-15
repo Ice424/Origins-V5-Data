@@ -31,6 +31,6 @@
 			}
 		]
 	},
-	"name": "Grow",
-	"description": "You grow a block taller"
+	"name": "shrink",
+	"description": "You shrink a block"
 }
