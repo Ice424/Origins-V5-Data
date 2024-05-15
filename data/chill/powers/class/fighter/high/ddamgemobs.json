@@ -1,0 +1,17 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "name": "Extra damage when submerged",
+        "operation": "multiply_total_multiplicative",
+        "value": 0.5
+    },
+    "target_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:in_tag",
+                "tag": "minecraft:skeletons"
+            }
+        ]
+    }
+}
