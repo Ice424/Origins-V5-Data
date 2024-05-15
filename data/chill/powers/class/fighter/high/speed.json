@@ -3,11 +3,11 @@
     "entity_action": {
         "type": "origins:apply_effect",
         "effect": {
-            "effect": "minecraft:night_vision",
-            "duration": 100,
+            "effect": "minecraft:speed",
+            "duration": 200,
             "amplifier": 1,
             "show_particles": false
         }
     },
-    "duration": 50
+    "duration": 100
 }

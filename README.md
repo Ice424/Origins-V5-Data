@@ -91,7 +91,7 @@
   - [ ] High
     - [x] ~~Extra reach~~
     - [x] ~~Permanent speed 2~~
-    - [ ] Double damage to hostile mobs
+    - [x] ~~Double damage to hostile mobs~~
     - [ ] Permanent saturation
     - [ ] Permanent hero of the village
     - [ ] gain strength 2 and resistance 2 for 10 seconds 
