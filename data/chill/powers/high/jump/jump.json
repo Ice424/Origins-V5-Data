@@ -12,9 +12,9 @@
                 "command": "particle cloud ~ ~ ~ 0.3 0.3 0.3 0.01 16 normal @a"
             },
             {
-                "type": "origins:grant_power",
-                "power": "chill:jump/fall_damage",
-                "source": "chill:jump"
+                "type": "origins:change_resource",
+                "resource": "chill:high/jump/falling",
+                "change": 17
             }
         ]
     },

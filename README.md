@@ -110,7 +110,7 @@
   - [ ] + less damage taken from fire (1 times)
   - [ ] + 1 level of luck (to 5)
 - [ ] General high tier
-  - [ ] Shift Jump(w out fall dmg from the jump) 
+  - [x] ~~Shift Jump(w out fall dmg from the jump)~~ 
   - [x] ~~shulk ability (storage space)~~
   - [x] ~~activate permeation for 10 seconds cooldown 5 minutes~~ 
   - [x] ~~scan (give all entities in 20 block glowing for 2 seconds)~~

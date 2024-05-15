@@ -1,25 +1,25 @@
 {
     "type": "origins:action_over_time",
     "entity_action": {
-        "type": "origins:set_fall_distance",
-        "fall_distance": 0
-    },
-    "falling_action": {
         "type": "origins:and",
         "actions": [
             {
-                
+                "type": "origins:set_fall_distance",
+                "fall_distance": 0
             },
             {
-                "type": "origins:execute_command",
-                "command": "power remove @s chill:frog/fall_damage"
+                "type": "origins:change_resource",
+                "resource": "chill:high/jump/falling",
+                "change": -1
             }
         ]
     },
     "interval": 1,
+    "hidden": true,
     "condition": {
-        "type": "origins:on_block",
-        "inverted": true
-    },
-    "hidden": true
+        "type": "origins:resource",
+        "resource": "chill:high/jump/falling",
+        "comparison": ">=",
+        "compare_to": 1
+    }
 }
