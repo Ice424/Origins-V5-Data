@@ -1,0 +1,30 @@
+{
+    "type": "origins:multiple",
+    "health": {
+        "type": "origins:attribute",
+        "modifier": {
+            "name": "Max health increase",
+            "attribute": "minecraft:generic.max_health",
+            "value": -4,
+            "operation": "addition"
+        }
+    },
+    "jump": {
+        "type": "origins:modify_jump",
+        "modifier": {
+            "operation": "addition",
+            "value": 0.2
+        }
+    },
+    "fall_damage": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:in_tag",
+            "tag": "minecraft:is_fall"
+        },
+        "modifier": {
+            "operation": "add_base_late",
+            "value": -3.5
+        }
+    }
+}

@@ -13,7 +13,7 @@
 			},
 			{
 				"type": "origins:grant_power",
-				"power": "chill:high/shrink/health",
+				"power": "chill:high/shrink/general",
 				"source": "chill:shrink"
 			}
 		]
@@ -27,7 +27,7 @@
 			},
 			{
 				"type": "origins:remove_power",
-				"power": "chill:high/shrink/health"
+				"power": "chill:high/shrink/general"
 			}
 		]
 	},
