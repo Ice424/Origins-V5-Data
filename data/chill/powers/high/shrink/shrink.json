@@ -26,8 +26,9 @@
 				"command": "scale add pehkui:base 0.5 @s"
 			},
 			{
-				"type": "origins:remove_power",
-				"power": "chill:high/shrink/general"
+				"type": "origins:revoke_power",
+				"power": "chill:high/shrink/general",
+				"source": "chill:shrink"
 			}
 		]
 	},

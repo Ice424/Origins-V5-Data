@@ -100,10 +100,10 @@
     - [ ] ability to get speed 3 for a short duration
     - [ ] all tameable mobs get tamed within 2 blocks cooldown 30 minutes 
 - [ ] Low tier
-  - [ ] + half a heart (to 5 hearts)
-  - [ ] + 20 levels 
+  - [x] ~~+ half a heart (to 5 hearts)~~
+  - [x] ~~+ xp (20 Levels)~~
   - [ ] - hunger loss  (5%, 15, 25%)
-  - [ ] + more xp gain (5%, 15%, 25% times)
+  - [x] ~~+ more xp gain (5%, 15%, 25% times)~~
   - [ ] + more swim speed (5%, 15%, 25% times)
   - [ ] + hunger gain (1.5 hunches)
   - [ ] + 1 block needed to proc fall damage (stacks 3 times) 
