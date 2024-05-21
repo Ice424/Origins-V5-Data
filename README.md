@@ -54,7 +54,7 @@
     - [ ] Double damage to enemies who have a negative potion effect or are below half health 
 - [ ] Tank (paladin/barbarian)
   - [ ] Passive
-    - [ ] Resistance 2 (40% less damage?#needstobenerfed)
+    - [ ] Resistance 1
     - [ ] Saturation (probably will be switched to less stamina drained + more gained #maybe )
   - [ ] High
     - [ ] Knockback resistance
