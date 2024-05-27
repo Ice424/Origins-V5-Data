@@ -99,16 +99,16 @@
     - [ ] ability to heal 10 and get + 10 temp hearts 
     - [ ] ability to get speed 3 for a short duration
     - [ ] all tameable mobs get tamed within 2 blocks cooldown 30 minutes 
-- [ ] Low tier
+- [x] ~~Low tier~~
   - [x] ~~+ half a heart (to 5 hearts)~~
   - [x] ~~+ xp (20 Levels)~~
-  - [ ] - hunger loss  (5%, 15, 25%)
+  - [x] ~~- hunger loss  (5%, 15, 25%)~~
   - [x] ~~+ more xp gain (5%, 15%, 25% times)~~
-  - [ ] + more swim speed (5%, 15%, 25% times)
-  - [ ] + hunger gain (1.5 hunches)
-  - [ ] + 1 block needed to proc fall damage (stacks 3 times) 
-  - [ ] + less damage taken from fire (1 times)
-  - [ ] + 1 level of luck (to 5)
+  - [x] ~~+ more swim speed (5%, 15%, 25% times)~~
+  - [x] ~~+ hunger gain (1.5 hunches)~~
+  - [x] ~~+ 1 block needed to proc fall damage (stacks 3 times)~~ 
+  - [x] ~~+ less damage taken from fire (5%, 15%, 25% times)~~
+  - [x] ~~+ 1 level of luck (to 5)~~
 - [x] ~~General high tier~~
   - [x] ~~Shift Jump(w out fall dmg from the jump)~~ 
   - [x] ~~shulk ability (storage space)~~
