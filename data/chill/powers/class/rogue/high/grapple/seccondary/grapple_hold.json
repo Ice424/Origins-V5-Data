@@ -36,7 +36,7 @@
     "keybind": {
         "type": "origins:active_self",
         "key": {
-            "key": "key.origins.primary_active",
+            "key": "key.origins.secondary_active",
             "continuous": true
         },
         "entity_action": {
@@ -84,12 +84,12 @@
                 "type": "origins:execute_command",
                 "command": "playsound minecraft:block.dispenser.launch master @a[distance=..30] ~ ~ ~ 0.4 0.6"
             },
-            "command_at_hit": "function grapple_namespace:grapple_hook_spawn",
+            "command_at_hit": "function chill:grapple_hook_spawn",
             "command_hit_offset": 0.5
         },
         "falling_action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[type=bat,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID run function grapple_namespace:grapple_hook_kill"
+            "command": "execute as @e[type=bat,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID run function chill:grapple_hook_kill"
         },
         "condition": {
             "type": "origins:resource",

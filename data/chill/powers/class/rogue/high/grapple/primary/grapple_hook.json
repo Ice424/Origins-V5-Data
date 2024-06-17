@@ -40,7 +40,7 @@
                     },
                     {
                         "type": "origins:execute_command",
-                        "command": "function grapple_namespace:grapple_hook_kill"
+                        "command": "function chill:grapple_hook_kill"
                     }
                 ]
             }
