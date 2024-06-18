@@ -4,7 +4,7 @@
 
 # TODO
 
-**Amount of passives will be changed on a class to class basis**
+**Amount of passives active will be changed on a class to class basis**
 - [ ] Druid
   - [ ] Passive
     - [ ] Standing in foliage heals
