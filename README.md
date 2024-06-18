@@ -45,7 +45,7 @@
     - [ ] no fall damage
     - [ ] Ability to give blindness to anyone in 5 blocks for 4 seconds
     - [ ] Use ability to get speed 3 and strength 2
-    - [ ] Get a grappling hook
+    - [x] ~~Get a grappling hook~~
   - [ ] Special
     - [ ] Wall climb ability
     - [ ] Used ability to get invisibility for 15 secs, cooldown 45 secs
@@ -83,22 +83,22 @@
     - [ ] Ability to summon hostile mobs to fight
     - [ ] Ability to see all players within 7 blocks
 - [ ] Fighter
-  - [ ] Passive
-    - [ ] 14 hearts
-    - [ ] strength 1
-    - [ ] haste 1
-    - [ ] speed 1
+  - [x] ~~Passive~~
+    - [x] ~~14 hearts~~
+    - [x] ~~strength 1~~
+    - [x] ~~haste 1~~
+    - [x] ~~speed 1~~
   - [ ] High
     - [x] ~~Extra reach~~
     - [x] ~~Permanent speed 2~~
     - [x] ~~Double damage to hostile mobs~~
-    - [ ] Permanent saturation
-    - [ ] Permanent hero of the village
+    - [x] ~~Permanent saturation~~
+    - [x] ~~Permanent hero of the village~~
     - [ ] gain strength 2 and resistance 2 for 10 seconds 
-    - [ ] arrows have random harmful effect
-    - [ ] ability to heal 10 and get + 10 temp hearts 
+    - [x] ~~arrows have random harmful effect~~
+    - [x] ~~ability to heal 10 and get + 10 temp hearts~~ 
     - [ ] ability to get speed 3 for a short duration
-    - [ ] all tameable mobs get tamed within 2 blocks cooldown 30 minutes 
+    - [x] ~~all tameable mobs get tamed within 4 blocks cooldown 30 minutes~~
 - [x] ~~Low tier~~
   - [x] ~~+ half a heart (to 5 hearts)~~
   - [x] ~~+ xp (20 Levels)~~

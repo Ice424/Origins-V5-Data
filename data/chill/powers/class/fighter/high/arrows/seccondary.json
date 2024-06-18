@@ -1,0 +1,56 @@
+{
+    "type": "origins:active_self",
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
+    "entity_action": {
+        "type": "origins:fire_projectile",
+        "projectile": "minecraft:arrow",
+        "count": 1,
+        "speed": 1.5,
+        "divergence": 1.0,
+        "bientity_action": {
+            "type": "origins:chance",
+            "chance": 1.0,
+            "actions": [
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:poison",
+                        "duration": 100,
+                        "amplifier": 1
+                    }
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:weakness",
+                        "duration": 200,
+                        "amplifier": 0
+                    }
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:slowness",
+                        "duration": 200,
+                        "amplifier": 1
+                    }
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:blindness",
+                        "duration": 100,
+                        "amplifier": 0
+                    }
+                }
+            ]
+        }
+    },
+    "cooldown": 100,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+        "bar_index": 8
+    }
+}

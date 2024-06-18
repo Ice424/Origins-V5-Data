@@ -1,0 +1,21 @@
+{
+    "type": "origins:active_self",
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
+    "entity_action": {
+        "entity_action": {
+            "type": "origins:area_of_effect",
+            "radius": 4,
+            "shape": "sphere",
+            "bientity_action": {
+                "type": "origins:tame"
+            }
+        }
+    },
+    "cooldown": 36000,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+        "bar_index": 8
+    }
+}
