@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "chill:class/fighter/passive/haste",
+        "chill:class/fighter/passive/hearts",
+        "chill:class/fighter/passive/speed",
+        "chill:class/fighter/passive/strength"
+    ],
+    "icon": {
+        "item":"minecraft:iron_sword"
+    },
+    "impact": 3,
+    "name": "Fighter",
+    "description": "The fighter class"
+}

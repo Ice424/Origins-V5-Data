@@ -1,5 +1,9 @@
 {
-  "replace": false,
+  "replace": true,
   "origins": [
-  ]
+    "chill:fighter"
+  ],
+  "gui_title": {
+    "choose_origin": "Choose a class"
+  }
 }

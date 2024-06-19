@@ -5,6 +5,7 @@
 # TODO
 
 **Amount of passives active will be changed on a class to class basis**
+
 - [ ] Druid
   - [ ] Passive
     - [ ] Standing in foliage heals
@@ -116,3 +117,6 @@
   - [x] ~~scan (give all entities in 20 block glowing for 2 seconds)~~
   - [x] ~~make 1 block taller~~
   - [x] ~~make half a block shorter but loose 2 hearts (4 health)~~
+
+
+- [] All of the fucking power descriptions
