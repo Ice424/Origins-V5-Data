@@ -90,7 +90,7 @@
     - [x] ~~speed 1~~
   - [x] ~~High~~
     - [x] ~~Extra reach~~
-    - [x] ~~Permanent speed 2  (dosen't stack w passive)~~
+    - [x] ~~Permanent speed 2  (doesn't stack w passive)~~
     - [x] ~~Double damage to hostile mobs~~
     - [x] ~~Permanent saturation~~
     - [x] ~~Permanent hero of the village~~
