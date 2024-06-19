@@ -82,22 +82,22 @@
     - [ ] Totem of undying-cooldown 10 mins
     - [ ] Ability to summon hostile mobs to fight
     - [ ] Ability to see all players within 7 blocks
-- [ ] Fighter
+- [x] ~~Fighter~~
   - [x] ~~Passive~~
     - [x] ~~14 hearts~~
     - [x] ~~strength 1~~
     - [x] ~~haste 1~~
     - [x] ~~speed 1~~
-  - [ ] High
+  - [x] ~~High~~
     - [x] ~~Extra reach~~
-    - [x] ~~Permanent speed 2~~
+    - [x] ~~Permanent speed 2  (dosen't stack w passive)~~
     - [x] ~~Double damage to hostile mobs~~
     - [x] ~~Permanent saturation~~
     - [x] ~~Permanent hero of the village~~
-    - [ ] gain strength 2 and resistance 2 for 10 seconds 
+    - [x] ~~gain strength 2 and resistance 2 for 10 seconds~~
     - [x] ~~arrows have random harmful effect~~
     - [x] ~~ability to heal 10 and get + 10 temp hearts~~ 
-    - [ ] ability to get speed 3 for a short duration
+    - [x] ~~ability to get speed 3 for a short duration~~
     - [x] ~~all tameable mobs get tamed within 4 blocks cooldown 30 minutes~~
 - [x] ~~Low tier~~
   - [x] ~~+ half a heart (to 5 hearts)~~

@@ -1,0 +1,30 @@
+{
+    "type": "origins:active_self",
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:heal",
+                "amount": 20
+            },
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:health_boost",
+                    "duration": 6000,
+                    "amplifier": 4,
+                    "show_particles": true,
+                    "show_icon": true
+                }
+            }
+        ]
+    },
+    "cooldown": 6000,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 10
+    }
+}

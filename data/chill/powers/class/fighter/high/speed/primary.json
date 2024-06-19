@@ -1,0 +1,20 @@
+{
+    "type": "origins:active_self",
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:speed",
+            "duration": 200,
+            "amplifier": 2,
+            "show_particles": false
+            }
+    },
+    "cooldown": 600,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 1
+    }
+} 
