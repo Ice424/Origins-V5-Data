@@ -1,0 +1,17 @@
+{
+    "type": "origins:multiple",
+    "seeing": {
+        "type": "origins:entity_glow",
+        "bientity_condition": {
+            "type": "origins:distance",
+            "comparison": "<=",
+            "compare_to": 10
+        },
+        "condition": {
+            "type": "origins:multiple",
+            "conditions": [
+                
+            ]
+        }
+    }
+}
