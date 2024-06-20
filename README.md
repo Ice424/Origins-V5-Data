@@ -71,7 +71,7 @@
     - [ ] block all dmg for 3-5 seconds
 - [ ] Cleric
   - [ ] Passive
-    - [ ] 9 hearts
+    - [x] ~~9 hearts~~
     - [ ]  Ability regen 2 in aoe cooldown 120 seconds
   - [ ] High
     - [ ] Life steal on melee hit
@@ -80,7 +80,7 @@
     - [ ] Shifting for 10 seconds resorts hunger and hearts and gives extra hearts
   - [ ] Special
     - [ ] Permanent luck
-    - [ ] Totem of undying-cooldown 10 mins
+    - [x] ~~Totem of undying-cooldown 10 mins~~
     - [ ] Ability to summon hostile mobs to fight
     - [ ] Ability to see all players within 7 blocks
 - [x] ~~Fighter~~
