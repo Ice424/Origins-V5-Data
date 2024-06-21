@@ -1,0 +1,154 @@
+{
+    "type": "origins:multiple",
+    "resource": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 6,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "timer": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 16,
+        "hud_render": {
+            "should_render": false,
+            "bar_index": 1,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png"
+        }
+    },
+    "timerdecay": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "change": -1,
+            "resource": "*:lifesteal_timer"
+        },
+        "interval": 2
+    },
+    "actionsovertime": {
+        "type": "origins:action_over_time",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:lifesteal_timer",
+            "compare_to": 0,
+            "comparison": "=="
+        },
+        "rising_action": {
+            "type": "origins:change_resource",
+            "resource": "*:lifesteal_resource",
+            "change": 0,
+            "operation": "set"
+        },
+        "interval": 2
+    },
+    "actionsonhit": {
+        "type": "origins:action_on_hit",
+        "bientity_action": {
+            "type": "origins:actor_action",
+            "action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:change_resource",
+                        "change": 1,
+                        "operation": "add",
+                        "resource": "*:lifesteal_resource"
+                    },
+                    {
+                        "type": "origins:change_resource",
+                        "change": 16,
+                        "operation": "set",
+                        "resource": "*:lifesteal_timer"
+                    },
+                    {
+                        "type": "origins:if_else_list",
+                        "actions": [
+                            {
+                                "action": {
+                                    "type": "origins:heal",
+                                    "amount": 0.1
+                                },
+                                "condition": {
+                                    "type": "origins:resource",
+                                    "resource": "*:lifesteal_resource",
+                                    "compare_to": 1,
+                                    "comparison": "=="
+                                }
+                            },
+                            {
+                                "action": {
+                                    "type": "origins:heal",
+                                    "amount": 0.2
+                                },
+                                "condition": {
+                                    "type": "origins:resource",
+                                    "resource": "*:lifesteal_resource",
+                                    "compare_to": 2,
+                                    "comparison": "=="
+                                }
+                            },
+                            {
+                                "action": {
+                                    "type": "origins:heal",
+                                    "amount": 0.4
+                                },
+                                "condition": {
+                                    "type": "origins:resource",
+                                    "resource": "*:lifesteal_resource",
+                                    "compare_to": 3,
+                                    "comparison": "=="
+                                }
+                            },
+                            {
+                                "action": {
+                                    "type": "origins:heal",
+                                    "amount": 0.8
+                                },
+                                "condition": {
+                                    "type": "origins:resource",
+                                    "resource": "*:lifesteal_resource",
+                                    "compare_to": 4,
+                                    "comparison": "=="
+                                }
+                            },
+                            {
+                                "action": {
+                                    "type": "origins:heal",
+                                    "amount": 1.6
+                                },
+                                "condition": {
+                                    "type": "origins:resource",
+                                    "resource": "*:lifesteal_resource",
+                                    "compare_to": 5,
+                                    "comparison": "=="
+                                }
+                            },
+                            {
+                                "action": {
+                                    "type": "origins:heal",
+                                    "amount": 3.2
+                                },
+                                "condition": {
+                                    "type": "origins:resource",
+                                    "resource": "*:lifesteal_resource",
+                                    "compare_to": 6,
+                                    "comparison": "=="
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:armor_stand"
+            },
+            "inverted": true
+        }
+    }
+}
