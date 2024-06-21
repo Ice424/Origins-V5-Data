@@ -17,5 +17,7 @@
         "type": "origins:execute_command",
         "command": "scale reset pehkui:reach @s"
     },
-    "execute_chosen_when_orb": true
+    "execute_chosen_when_orb": true,
+    "name": "Increased reach",
+    "description": "you get 6 block reach"
 }

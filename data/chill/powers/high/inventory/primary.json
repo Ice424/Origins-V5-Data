@@ -5,6 +5,6 @@
     "key": {
         "key": "key.origins.primary_active"
     },
-    "name": "inventory",
+    "name": "Inventory",
     "description": "you have 5 extra inventory slots they stay with you on death"
 }

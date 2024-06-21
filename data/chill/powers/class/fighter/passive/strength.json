@@ -9,5 +9,7 @@
             "show_particles": false
             }
         },
-    "interval": 100
+    "interval": 100,
+    "name": "Strength",
+    "description": "you have permanent strength 1"
 }

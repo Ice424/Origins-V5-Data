@@ -9,5 +9,7 @@
             "show_particles": false
         }
     },
-    "duration": 100
+    "duration": 100,
+    "name": "Speed",
+    "description": "you have permanent speed 2"
 }

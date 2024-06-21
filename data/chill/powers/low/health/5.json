@@ -5,5 +5,7 @@
         "attribute": "minecraft:generic.max_health",
         "value": 5,
         "operation": "addition"
-    }
+    },
+    "name": "Increased health",
+    "description": "+ 2 hearts and a half"
 }

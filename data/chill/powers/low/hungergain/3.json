@@ -9,5 +9,7 @@
         "name": "Increased saturation points",
         "operation": "addition",
         "value": 3
-    }
+    },
+    "name": "Increased food points",
+    "description": "You gain 9 more hunger hunches and 3 more points of saturation"
 }

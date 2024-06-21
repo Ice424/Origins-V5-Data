@@ -3,5 +3,7 @@
     "modifier": {
         "operation": "multiply_base",
         "value": 1.05
-    }
+    },
+    "name": "Xp gain",
+    "description": "5% increase to xp gain"
 }

@@ -9,5 +9,7 @@
             "show_particles": false
             }
         },
-    "interval": 100
+    "interval": 100,
+    "name": "Hero of the village",
+    "description": "you have permanent hero of the village"
 }

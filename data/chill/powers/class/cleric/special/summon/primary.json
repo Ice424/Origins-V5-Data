@@ -1,0 +1,62 @@
+{
+    "type": "origins:multiple",
+    "summon": {
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.origins.primary_active"
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "summon zombie ~ ~ ~ {Team:druid}"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "summon zombie ~ ~ ~ {Team:druid}"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "summon zombie ~ ~ ~ {Team:druid}"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "summon zombie ~ ~ ~ {Team:druid}"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "summon zombie ~ ~ ~ {Team:druid}"
+                }
+            ]
+        },
+        "cooldown": 200,
+        "hud_render": {
+            "sprite_location": "origins:textures/gui/resource_bar.png",
+            "bar_index": 1
+        }
+    },
+    "callback": {
+        "type": "origins:action_on_callback",
+        "entity_action_gained": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "team create druid  @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join druid @s"
+                }
+            ]
+        },
+        "entity_action_lost": {
+            "type": "origins:execute_command",
+            "command": "team leave @s"
+        },
+        "execute_chosen_when_orb": true
+    },
+    "name": "Summon the dead",
+    "description": "summon 5 zombies to assist you in battle they are friendly towards druids"
+}

@@ -134,5 +134,7 @@
                 ]
             }
         }
-    }
+    },
+    "name": "phasing",
+    "description": "you can temporarily phase through walls"
 }

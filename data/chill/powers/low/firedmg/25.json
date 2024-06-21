@@ -7,5 +7,7 @@
     "modifier": {
         "operation": "multiply_base",
         "value": -0.25
-    }
+    },
+    "name": "Fire damage",
+    "description": "25% less fire damage"
 }

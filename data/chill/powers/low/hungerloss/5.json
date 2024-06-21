@@ -4,5 +4,7 @@
         "name": "Increased exhaustion",
         "operation": "multiply_base",
         "value": -0.05
-    }
+    },
+    "name": "Hunger loss",
+    "description": "hunger is lost 5% slower"
 }

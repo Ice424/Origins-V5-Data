@@ -9,5 +9,7 @@
             "show_particles": false
             }
         },
-    "interval": 100
+    "interval": 100,
+    "name": "luck",
+    "description": "+ 3 to your luck"
 }

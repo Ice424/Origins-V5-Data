@@ -9,5 +9,7 @@
             "show_particles": false
         }
     },
-    "interval": 100
+    "interval": 100,
+    "name": "Luck",
+    "description": "4 levels of luck"
 }

@@ -9,5 +9,7 @@
             "show_particles": false
             }
         },
-    "interval": 100
+    "interval": 100,
+    "name": "Speed",
+    "description": "you have permanent speed 1"
 }

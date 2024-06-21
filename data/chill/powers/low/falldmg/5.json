@@ -7,5 +7,7 @@
     "modifier": {
         "operation": "multiply_base",
         "value": -0.05
-    }
+    },
+    "name": "Fall damage",
+    "description": "5% less fall damage"
 }

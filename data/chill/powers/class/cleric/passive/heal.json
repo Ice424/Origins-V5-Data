@@ -1,0 +1,44 @@
+{
+    "type": "origins:active_self",
+    "key": {
+        "key": "key.sneak"
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:area_of_effect",
+                "radius": 10,
+                "shape": "sphere",
+                "bientity_action": {
+                    "type": "origins:target_action",
+                    "action": {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "effect": "minecraft:regeneration",
+                            "duration": 200,
+                            "amplifier": 1,
+                            "show_particles": false
+                        }
+                    }
+                }
+            },
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:regeneration",
+                    "duration": 200,
+                    "amplifier": 1,
+                    "show_particles": false
+                }
+            }
+        ]
+    },
+    "cooldown": 2400,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 1
+    },
+    "name": "Regeneration aura",
+    "description": "sneak to heal you and all mobs in a 10 block radius"
+}

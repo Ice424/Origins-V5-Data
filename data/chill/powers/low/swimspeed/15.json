@@ -3,5 +3,7 @@
     "modifier": {
         "operation": "multiply_base",
         "value": 1.15
-    }
+    },
+    "name": "Swim speed",
+    "description": "15% increase in swim speed"
 }

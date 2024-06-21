@@ -53,5 +53,7 @@
             "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
             "bar_index": 7
         }
-    }
+    },
+    "name": "Divine protection",
+    "description": "you can gain the effects of holding a totem of undying"
 }

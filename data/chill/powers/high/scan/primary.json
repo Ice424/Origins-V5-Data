@@ -25,5 +25,7 @@
         "should_render": true,
         "bar_index": 7,
         "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png"
-    }
+    },
+    "name": "scan",
+    "description": "reveal all entities in 40 a block radius"
 }

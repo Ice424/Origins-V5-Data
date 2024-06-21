@@ -22,9 +22,7 @@
         },
         "condition": {
             "type": "origins:sneaking"
-        },
-        "name": "jump",
-        "description": "by crouching you can jump high"
+        }
     },
     "falling": {
         "type": "origins:resource",
@@ -58,5 +56,7 @@
             "comparison": ">=",
             "compare_to": 1
         }
-    }
+    },
+    "name": "Jump",
+    "description": "by crouching you can jump high"
 }

@@ -72,17 +72,17 @@
 - [ ] Cleric
   - [ ] Passive
     - [x] ~~9 hearts~~
-    - [ ]  Ability regen 2 in aoe cooldown 120 seconds
+    - [x] ~~ sneak regen 2 in aoe cooldown 120 seconds~~
   - [ ] High
     - [ ] Life steal on melee hit
     - [ ] Use ability to heal all player in fov
     - [ ] Use ability to teleport to mob looking at
     - [ ] Shifting for 10 seconds resorts hunger and hearts and gives extra hearts
-  - [ ] Special
+  - [x] ~~Special~~
     - [x] ~~Permanent luck~~
     - [x] ~~Totem of undying-cooldown 10 mins~~
-    - [ ] Ability to summon hostile mobs to fight
-    - [ ] Ability to see all players within 7 blocks
+    - [x] ~~Ability to summon hostile mobs to fight~~
+    - [x] ~~Ability to see all players within 7 blocks~~
 - [x] ~~Fighter~~
   - [x] ~~Passive~~
     - [x] ~~14 hearts~~
