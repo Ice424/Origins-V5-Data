@@ -1,9 +1,11 @@
 {
   "replace": true,
   "origins": [
-    "chill:fighter"
+    "chill:fighter",
+    "origins:human"
   ],
   "gui_title": {
     "choose_origin": "Choose a class"
-  }
+  },
+  "allow_random": true
 }

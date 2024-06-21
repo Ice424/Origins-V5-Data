@@ -1,0 +1,57 @@
+{
+    "type": "origins:active_self",
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "entity_action": {
+        "type": "origins:choice",
+        "actions": [
+            {
+                "element": {
+                    "type": "origins:fire_projectile",
+                    "entity_type": "minecraft:arrow",
+                    "count": 1,
+                    "divergence": 1,
+                    "tag": "{pickup:0b, Potion: \"minecraft:poison\"}"
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:fire_projectile",
+                    "entity_type": "minecraft:arrow",
+                    "count": 1,
+                    "divergence": 1,
+                    "tag": "{pickup:0b, Potion: \"minecraft:weakness\"}"
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:fire_projectile",
+                    "entity_type": "minecraft:arrow",
+                    "count": 1,
+                    "divergence": 1,
+                    "tag": "{pickup:0b, Potion: \"minecraft:slowness\"}"
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:fire_projectile",
+                    "entity_type": "minecraft:arrow",
+                    "count": 1,
+                    "divergence": 1,
+                    "tag": "{pickup:0b, Potion: \"minecraft:instant_damage\"}"
+                },
+                "weight": 10
+            }
+        ]
+        
+    },
+    "cooldown": 100,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+        "bar_index": 8
+    }
+}
