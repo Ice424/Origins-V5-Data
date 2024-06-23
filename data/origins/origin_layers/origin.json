@@ -5,7 +5,10 @@
     "origins:human"
   ],
   "gui_title": {
-    "choose_origin": "Choose a class"
+    "choose_origin": "Choose a class",
+    "view_origin": "This is your class"
   },
-  "allow_random": true
+  "allow_random": true,
+  "missing_name": "None",
+  "missing_description": "You currently don't have a class selected."
 }

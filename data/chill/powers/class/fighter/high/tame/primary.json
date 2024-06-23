@@ -14,7 +14,7 @@
     "cooldown": 36000,
     "hud_render": {
         "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
-        "bar_index": 8
+        "bar_index": 7
     },
     "name": "Tame",
     "description": "you can tame all tameable mobs in a 4 block radius"

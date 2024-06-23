@@ -10,7 +10,7 @@
                 "type": "origins:apply_effect",
                 "effect": {
                     "effect": "minecraft:strength",
-                    "duration": 200,
+                    "duration": 400,
                     "amplifier": 1,
                     "show_particles": true,
                     "show_icon": true
@@ -20,7 +20,7 @@
                 "type": "origins:apply_effect",
                 "effect": {
                     "effect": "minecraft:resistance",
-                    "duration": 200,
+                    "duration": 400,
                     "amplifier": 1,
                     "show_particles": true,
                     "show_icon": true
@@ -30,8 +30,8 @@
     },
     "cooldown": 600,
     "hud_render": {
-        "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
-        "bar_index": 8
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index": 18
     },
     "name": "Powered up",
     "description": "you gain resistance 2 and strength 2 for a short period"

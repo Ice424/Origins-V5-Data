@@ -10,13 +10,13 @@
             "duration": 200,
             "amplifier": 2,
             "show_particles": false
-            }
+        }
     },
     "cooldown": 600,
     "hud_render": {
-        "sprite_location": "origins:textures/gui/resource_bar.png",
-        "bar_index": 1
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index": 20
     },
     "name": "Swiftness",
     "description": "you can gain speed 3 for a short period"
-} 
+}

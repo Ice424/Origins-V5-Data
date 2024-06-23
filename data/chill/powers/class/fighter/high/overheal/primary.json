@@ -7,25 +7,25 @@
         "type": "origins:and",
         "actions": [
             {
-                "type": "origins:heal",
-                "amount": 20
-            },
-            {
                 "type": "origins:apply_effect",
                 "effect": {
                     "effect": "minecraft:health_boost",
                     "duration": 600,
                     "amplifier": 4,
                     "show_particles": true,
-                    "show_icon": true
+                    "show_icon": false
                 }
+            },
+            {
+                "type": "origins:heal",
+                "amount": 20
             }
         ]
     },
-    "cooldown": 6000,
+    "cooldown": 1200,
     "hud_render": {
         "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-        "bar_index": 10
+        "bar_index": 9
     },
     "name": "Overheal",
     "description": "you heal 20 hearts and gain 5 temporary hearts"
