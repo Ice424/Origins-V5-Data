@@ -4,13 +4,11 @@
         "key": "key.origins.secondary_active"
     },
     "entity_action": {
-        "entity_action": {
-            "type": "origins:area_of_effect",
-            "radius": 4,
-            "shape": "sphere",
-            "bientity_action": {
-                "type": "origins:tame"
-            }
+        "type": "origins:area_of_effect",
+        "radius": 4,
+        "shape": "sphere",
+        "bientity_action": {
+            "type": "origins:tame"
         }
     },
     "cooldown": 36000,

@@ -4,53 +4,69 @@
         "key": "key.origins.secondary_active"
     },
     "entity_action": {
-        "type": "origins:fire_projectile",
-        "entity_type": "minecraft:arrow",
-        "count": 1,
-        "speed": 1.5,
-        "divergence": 1.0,
-        "bientity_action": {
-            "type": "origins:chance",
-            "chance": 1.0,
-            "actions": [
-                {
-                    "type": "origins:apply_effect",
-                    "effect": {
-                        "effect": "minecraft:poison",
-                        "duration": 100,
-                        "amplifier": 1
+        "type": "origins:choice",
+        "actions": [
+            {
+                "element": {
+                    "type": "origins:fire_projectile",
+                    "entity_type": "minecraft:arrow",
+                    "count": 1,
+                    "divergence": 1,
+                    "tag": "{Potion: \"minecraft:poison\", pickup:0b}",
+                    "projectile_action": {
+                        "type": "origins:execute_command",
+                        "command": "data merge entity @s {pickup:0b}"
                     }
                 },
-                {
-                    "type": "origins:apply_effect",
-                    "effect": {
-                        "effect": "minecraft:weakness",
-                        "duration": 200,
-                        "amplifier": 0
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:fire_projectile",
+                    "entity_type": "minecraft:arrow",
+                    "count": 1,
+                    "divergence": 1,
+                    "tag": "{Potion: \"minecraft:slowness\", pickup:0b}",
+                    "projectile_action": {
+                        "type": "origins:execute_command",
+                        "command": "data merge entity @s {pickup:0b}"
                     }
                 },
-                {
-                    "type": "origins:apply_effect",
-                    "effect": {
-                        "effect": "minecraft:slowness",
-                        "duration": 200,
-                        "amplifier": 1
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:fire_projectile",
+                    "entity_type": "minecraft:arrow",
+                    "count": 1,
+                    "divergence": 1,
+                    "tag": "{Potion: \"minecraft:weakness\", }",
+                    "projectile_action": {
+                        "type": "origins:execute_command",
+                        "command": "data merge entity @s {pickup:0b}"
                     }
                 },
-                {
-                    "type": "origins:apply_effect",
-                    "effect": {
-                        "effect": "minecraft:blindness",
-                        "duration": 100,
-                        "amplifier": 0
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:fire_projectile",
+                    "entity_type": "minecraft:arrow",
+                    "count": 1,
+                    "divergence": 1,
+                    "tag": "{Potion: \"minecraft:harming\"}",
+                    "projectile_action": {
+                        "type": "origins:execute_command",
+                        "command": "data merge entity @s {pickup:0b}"
                     }
-                }
-            ]
-        }
+                },
+                "weight": 10
+            }
+        ]
     },
     "cooldown": 100,
     "hud_render": {
-        "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
-        "bar_index": 8
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index": 2
     }
 }
