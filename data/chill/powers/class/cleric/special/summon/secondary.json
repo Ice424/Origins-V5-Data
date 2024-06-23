@@ -1,7 +1,7 @@
 {
     "type": "origins:multiple",
     "summon": {
-        "type": "origins:secondary_self",
+        "type": "origins:active_self",
         "key": {
             "key": "key.origins.primary_active"
         },
