@@ -23,21 +23,21 @@
         "entity_action": {
             "type": "origins:change_resource",
             "change": -1,
-            "resource": "*:lifesteal_timer"
+            "resource": "*:*_timer"
         },
-        "interval": 2
+        "interval": 1
     },
     "actionsovertime": {
         "type": "origins:action_over_time",
         "condition": {
             "type": "origins:resource",
-            "resource": "*:lifesteal_timer",
+            "resource": "*:*_timer",
             "compare_to": 0,
             "comparison": "=="
         },
         "rising_action": {
             "type": "origins:change_resource",
-            "resource": "*:lifesteal_resource",
+            "resource": "*:*_resource",
             "change": 0,
             "operation": "set"
         },
@@ -54,13 +54,13 @@
                         "type": "origins:change_resource",
                         "change": 1,
                         "operation": "add",
-                        "resource": "*:lifesteal_resource"
+                        "resource": "*:*_resource"
                     },
                     {
                         "type": "origins:change_resource",
                         "change": 16,
                         "operation": "set",
-                        "resource": "*:lifesteal_timer"
+                        "resource": "*:*_timer"
                     },
                     {
                         "type": "origins:if_else_list",
@@ -72,7 +72,7 @@
                                 },
                                 "condition": {
                                     "type": "origins:resource",
-                                    "resource": "*:lifesteal_resource",
+                                    "resource": "*:*_resource",
                                     "compare_to": 1,
                                     "comparison": "=="
                                 }
@@ -84,7 +84,7 @@
                                 },
                                 "condition": {
                                     "type": "origins:resource",
-                                    "resource": "*:lifesteal_resource",
+                                    "resource": "*:*_resource",
                                     "compare_to": 2,
                                     "comparison": "=="
                                 }
@@ -96,7 +96,7 @@
                                 },
                                 "condition": {
                                     "type": "origins:resource",
-                                    "resource": "*:lifesteal_resource",
+                                    "resource": "*:*_resource",
                                     "compare_to": 3,
                                     "comparison": "=="
                                 }
@@ -108,7 +108,7 @@
                                 },
                                 "condition": {
                                     "type": "origins:resource",
-                                    "resource": "*:lifesteal_resource",
+                                    "resource": "*:*_resource",
                                     "compare_to": 4,
                                     "comparison": "=="
                                 }
@@ -120,7 +120,7 @@
                                 },
                                 "condition": {
                                     "type": "origins:resource",
-                                    "resource": "*:lifesteal_resource",
+                                    "resource": "*:*_resource",
                                     "compare_to": 5,
                                     "comparison": "=="
                                 }
@@ -132,7 +132,7 @@
                                 },
                                 "condition": {
                                     "type": "origins:resource",
-                                    "resource": "*:lifesteal_resource",
+                                    "resource": "*:*_resource",
                                     "compare_to": 6,
                                     "comparison": "=="
                                 }

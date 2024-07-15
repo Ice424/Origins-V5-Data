@@ -23,35 +23,37 @@
                         {
                             "effect": "minecraft:absorption",
                             "amplifier": 1,
-                            "duration": 10
+                            "duration": 100
                         }
                     ]
                 },
                 {
                     "type": "origins:execute_command",
-                    "command": "particle totem_of_undying ~ ~ ~ 0.3 0.3 0.3 0.01 16 normal @a"
+                    "command": "particle minecraft:totem_of_undying ~ ~2 ~ 1 1 1 0.1 500"
                 },
                 {
-                    "type": "origins:change_resource",
-                    "resource": "*:*_falling",
-                    "change": 12000
+                    "type": "origins:execute_command",
+                    "command": "playsound minecraft:item.totem.use player @s"
+                },
+                {
+                    "type": "origins:trigger_cooldown",
+                    "power": "*:*_cooldown"
                 }
             ]
         },
         "condition": {
             "type": "origins:resource",
             "resource": "*:*_cooldown",
-            "comparison": ">=",
+            "comparison": "<=",
             "compare_to": 1
         }
     },
     "cooldown": {
-        "type": "origins:resource",
-        "min": 0,
-        "max": 12000,
+        "type": "origins:cooldown",
+        "cooldown": 12000,
         "hud_render": {
             "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
-            "bar_index": 7
+            "bar_index": 6
         }
     },
     "name": "Divine protection",

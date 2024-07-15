@@ -70,11 +70,11 @@
     - [ ] Rage increased speed dmg for short period? #maybe
     - [ ] block all dmg for 3-5 seconds
 - [ ] Cleric
-  - [ ] Passive
+  - [x] ~~Passive~~
     - [x] ~~9 hearts~~
     - [x] ~~ sneak regen 2 in aoe cooldown 120 seconds~~
   - [ ] High
-    - [ ] Life steal on melee hit
+    - [x] ~~Life steal on melee hit~~
     - [ ] Use ability to heal all player in fov
     - [ ] Use ability to teleport to mob looking at
     - [ ] Shifting for 10 seconds resorts hunger and hearts and gives extra hearts

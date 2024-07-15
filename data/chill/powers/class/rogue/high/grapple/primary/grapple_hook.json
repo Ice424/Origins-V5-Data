@@ -40,14 +40,14 @@
                     },
                     {
                         "type": "origins:execute_command",
-                        "command": "function chill:grapple_hook_kill"
+                        "command": "kill @s"
                     }
                 ]
             }
         }
     },
 
-    "invis": {
-        "type": "origins:invisibility"
+    "prevent_use": {
+        "type": "origins:prevent_being_used"
     }
 }

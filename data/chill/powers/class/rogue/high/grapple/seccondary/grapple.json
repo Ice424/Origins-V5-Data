@@ -1,6 +1,6 @@
 {
     "name": "Grappling Hook",
-    "description": "Made by finn_nerd, originally for Origins 1.20.1.",
+    "description": "Made by finn_nerd, originally for Origins 1.20.1. Requires eggolib.",
     "type": "origins:multiple",
     
     "callback": {
@@ -17,12 +17,8 @@
                     "command": "scoreboard objectives add GrappleUUID dummy"
                 },
                 {
-                    "type": "origins:delay",
-                    "ticks": 1,
-                    "action": {
-                        "type": "origins:execute_command",
-                        "command": "execute store result score @s GrappleUUID run data get entity @s UUID[0]"
-                    }
+                    "type": "origins:execute_command",
+                    "command": "execute store result score @s GrappleUUID run data get entity @s UUID[0]"
                 }
             ]
         },
@@ -36,20 +32,20 @@
     "spawn": {
         "type": "origins:active_self",
         "key": {
-            "key": "key.origins.secondary_active"
+            "key": "key.origins.seccondary_active"
         },
         "cooldown": 5,
         "entity_action": {
             "type": "origins:if_else",
             "condition": {
                 "type": "origins:command",
-                "command": "execute as @e[type=bat,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID",
+                "command": "execute as @e[type=armor_stand,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID",
                 "comparison": ">",
                 "compare_to": 0
             },
             "if_action": {
                 "type": "origins:execute_command",
-                "command": "execute as @e[type=bat,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID run function chill:grapple_hook_kill"
+                "command": "execute as @e[type=armor_stand,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID run kill @s"
             },
             "else_action": {
                 "type": "origins:raycast",
@@ -74,7 +70,7 @@
         "velocity": 0.04,
         "condition": {
             "type": "origins:command",
-            "command": "execute as @e[type=bat,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID",
+            "command": "execute as @e[type=armor_stand,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID",
             "comparison": ">",
             "compare_to": 0
         }
@@ -85,44 +81,38 @@
         "type": "origins:action_over_time",
         "interval": 1,
         "entity_action": {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:execute_command",
-                    "command": "execute as @e[type=bat,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID run damage @s 0 generic_kill by @p[distance=0]"
-                },
-                {
-                    "type": "origins:selector_action",
-                    "selector": "@e[type = minecraft:bat,distance=7.5..27.5,nbt={Tags:['grapple_hook']}]",
-                    "bientity_action": {
-                        "type": "origins:invert",
-                        "action": {
-                            "type": "origins:if_else",
-                            "condition": {
-                                "type": "origins:target_condition",
-                                "condition": {
-                                   "type": "origins:sneaking"
-                                }
-                            },
-                            "if_action": {
-                                "type": "origins:add_velocity",
-                                "z": -0.035
-                            },
-                            "else_action": {
-                                "type": "origins:add_velocity",
-                                "z": -0.1
-                            }
+            "type": "origins:selector_action",
+            "selector": "@e[type = minecraft:armor_stand,distance=7.5..27.5,nbt={Tags:['grapple_hook']}]",
+            "bientity_action": {
+                "type": "origins:invert",
+                "action": {
+                    "type": "origins:if_else",
+                    "condition": {
+                        "type": "origins:target_condition",
+                        "condition": {
+                           "type": "origins:sneaking"
                         }
                     },
-                    "bientity_condition": {
-                        "type": "origins:attacker"
+                    "if_action": {
+                        "type": "origins:add_velocity",
+                        "z": -0.035
+                    },
+                    "else_action": {
+                        "type": "origins:add_velocity",
+                        "z": -0.1
                     }
                 }
-            ]
+            },
+            "bientity_condition": {
+                "type": "eggolib:compare_score",
+                "actor_objective": "GrappleUUID",
+                "target_objective": "GrappleUUID",
+                "comparison": "=="
+            }
         },
         "condition": {
             "type": "origins:command",
-            "command": "execute as @e[type=bat,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID",
+            "command": "execute as @e[type=armor_stand,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID",
             "comparison": ">",
             "compare_to": 0
         }
@@ -142,7 +132,7 @@
         },
         "condition": {
             "type": "origins:command",
-            "command": "execute as @e[type=bat,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID",
+            "command": "execute as @e[type=armor_stand,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID",
             "comparison": ">",
             "compare_to": 0
         }
@@ -162,7 +152,7 @@
         },
         "condition": {
             "type": "origins:command",
-            "command": "execute as @e[type=bat,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID",
+            "command": "execute as @e[type=armor_stand,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID",
             "comparison": ">",
             "compare_to": 0
         }
@@ -182,7 +172,7 @@
         },
         "condition": {
             "type": "origins:command",
-            "command": "execute as @e[type=bat,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID",
+            "command": "execute as @e[type=armor_stand,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID",
             "comparison": ">",
             "compare_to": 0
         }
@@ -202,7 +192,7 @@
         },
         "condition": {
             "type": "origins:command",
-            "command": "execute as @e[type=bat,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID",
+            "command": "execute as @e[type=armor_stand,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID",
             "comparison": ">",
             "compare_to": 0
         }
@@ -217,7 +207,7 @@
         },
         "entity_action": {
             "type": "origins:selector_action",
-            "selector": "@e[type = minecraft:bat,distance = 1..7.5,sort=nearest,limit=1,nbt={Tags:['grapple_hook']}]",
+            "selector": "@e[type = minecraft:armor_stand,distance = 1..7.5,sort=nearest,limit=1,nbt={Tags:['grapple_hook']}]",
             "bientity_action": {
                 "type": "origins:invert",
                 "action": {
@@ -226,12 +216,15 @@
                 }
             },
             "bientity_condition": {
-                "type": "origins:attacker"
+                "type": "eggolib:compare_score",
+                "actor_objective": "GrappleUUID",
+                "target_objective": "GrappleUUID",
+                "comparison": "=="
             }
         },
         "condition": {
             "type": "origins:command",
-            "command": "execute as @e[type=bat,nbt={Tags:['grapple_hook']},distance=..7.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID",
+            "command": "execute as @e[type=armor_stand,nbt={Tags:['grapple_hook']},distance=..7.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID",
             "comparison": ">",
             "compare_to": 0
         }

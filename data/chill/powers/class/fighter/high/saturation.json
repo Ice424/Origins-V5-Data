@@ -1,15 +1,11 @@
 {
     "type": "origins:action_over_time",
     "entity_action": {
-        "type": "origins:apply_effect",
-        "effect": {
-            "effect": "minecraft:saturation",
-            "duration": 300,
-            "amplifier": 0,
-            "show_particles": false
-            }
-        },
-    "interval": 100,
+        "type": "origins:feed",
+        "food": 1,
+        "saturation": 1
+    },
+    "interval": 150,
     "name": "Saturation",
     "description": "you have permanent saturation"
 }
