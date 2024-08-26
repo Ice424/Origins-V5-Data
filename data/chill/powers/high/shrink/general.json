@@ -3,17 +3,17 @@
     "health": {
         "type": "origins:attribute",
         "modifier": {
-            "name": "Max health increase",
+            "id": "chill:max_health_increase",
             "attribute": "minecraft:generic.max_health",
-            "value": -4,
-            "operation": "addition"
+            "amount": -4,
+            "operation": "ADD_VALUE"
         }
     },
     "jump": {
         "type": "origins:modify_jump",
         "modifier": {
-            "operation": "addition",
-            "value": 0.2
+            "operation": "apoli:add_base_early",
+            "amount": 0.2
         }
     },
     "fall_damage": {
@@ -24,7 +24,7 @@
         },
         "modifier": {
             "operation": "add_base_late",
-            "value": -3.5
+            "amount": -3.5
         }
     },
     "hidden": true

@@ -3,7 +3,7 @@
     "modifier": {
         "name": "damage to hostile mobs",
         "operation": "multiply_total_multiplicative",
-        "value": 1
+        "amount": 1
     },
     "target_condition": {
         "type": "origins:in_tag",

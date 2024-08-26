@@ -1,8 +1,8 @@
 {
     "type": "origins:modify_xp_gain",
     "modifier": {
-        "operation": "multiply_base",
-        "value": 1.15
+        "operation": "apoli:multiply_base_additive",
+        "amount": 1.15
     },"name": "Xp gain",
     "description": "15% increase to xp gain"
 }

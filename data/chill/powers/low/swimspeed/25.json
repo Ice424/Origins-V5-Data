@@ -1,8 +1,9 @@
 {
     "type": "origins:modify_swim_speed",
     "modifier": {
-        "operation": "multiply_base",
-        "value": 1.25
+        "id": "chill:increased_swim_speed",
+        "operation": "ADD_MULTIPLIED_BASE",
+        "amount": 1.25
     },
     "name": "Swim speed",
     "description": "25% increase in swim speed"

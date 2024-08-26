@@ -9,7 +9,7 @@
             {
                 "type": "origins:apply_effect",
                 "effect": {
-                    "effect": "minecraft:health_boost",
+                    "id": "minecraft:health_boost",
                     "duration": 600,
                     "amplifier": 4,
                     "show_particles": true,

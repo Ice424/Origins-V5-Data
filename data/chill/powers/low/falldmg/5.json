@@ -5,8 +5,8 @@
         "tag": "minecraft:is_fall"
     },
     "modifier": {
-        "operation": "multiply_base",
-        "value": -0.05
+        "operation": "apoli:multiply_base_additive",
+        "amount": -0.05
     },
     "name": "Fall damage",
     "description": "5% less fall damage"

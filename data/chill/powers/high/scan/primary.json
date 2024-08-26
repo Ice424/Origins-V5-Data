@@ -12,7 +12,7 @@
             "action": {
                 "type": "origins:apply_effect",
                 "effect": {
-                    "effect": "minecraft:glowing",
+                    "id": "minecraft:glowing",
                     "duration": 80,
                     "amplifier": 1,
                     "show_particles": false

@@ -6,7 +6,7 @@
         "chill:class/fighter/passive/strength"
     ],
     "icon": {
-        "item":"minecraft:iron_sword"
+        "id": "minecraft:iron_sword"
     },
     "impact": 3,
     "name": "Fighter",

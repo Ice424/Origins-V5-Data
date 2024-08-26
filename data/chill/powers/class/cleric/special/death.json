@@ -12,16 +12,16 @@
                     "type": "origins:apply_effect",
                     "effects": [
                         {
-                            "effect": "minecraft:regeneration",
+                            "id": "minecraft:regeneration",
                             "amplifier": 1,
                             "duration": 900
                         },
                         {
-                            "effect": "minecraft:fire_resistance",
+                            "id": "minecraft:fire_resistance",
                             "duration": 800
                         },
                         {
-                            "effect": "minecraft:absorption",
+                            "id": "minecraft:absorption",
                             "amplifier": 1,
                             "duration": 100
                         }

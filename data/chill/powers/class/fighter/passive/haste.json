@@ -3,7 +3,7 @@
     "entity_action": {
         "type": "origins:apply_effect",
         "effect": {
-            "effect": "minecraft:haste",
+            "id": "minecraft:haste",
             "duration": 300,
             "amplifier": 0,
             "show_particles": false

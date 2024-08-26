@@ -1,10 +1,10 @@
 {
     "type": "origins:attribute",
     "modifier": {
-        "name": "Max health increase",
+        "id": "chill:max_health_increase",
         "attribute": "minecraft:generic.max_health",
-        "value": 3,
-        "operation": "addition"
+        "amount": 3,
+        "operation": "ADD_VALUE"
     },
     "name": "Increased health",
     "description": "+ heart and a half"

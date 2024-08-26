@@ -10,5 +10,6 @@
   },
   "allow_random": true,
   "missing_name": "None",
-  "missing_description": "You currently don't have a class selected."
+  "missing_description": "You currently don't have a class selected.",
+  "loading_priority": 1
 }
