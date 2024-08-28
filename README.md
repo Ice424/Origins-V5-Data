@@ -2,6 +2,7 @@
 ## An origins DataPack created for the chill server origins thing
 
 
+
 # TODO
 
 **Amount of passives active will be changed on a class to class basis**
@@ -119,4 +120,9 @@
   - [x] ~~make half a block shorter but loose 2 hearts (4 health)~~
 
 
-- [] All of the fucking power descriptions
+## Thanks to
+the people who helped for helping
+
+Cloud Wolf for the [Chest Menu/GUI Tutorial in Minecraft 1.21+](https://youtu.be/Sxnaah2SPzw?si=zF8PXbQSoNzrp9PX)
+
+Misode for [invisible minecarts](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbGV0YWJJamM3VXpGYk1vVVRmRTFwUU9QSDVnZ3xBQ3Jtc0tsZUlZWkl6cW03a3RXeExTUDFERlJBdmUtc3dXUDZ6T19WWGs5dnNEY0p2a250RmpfQXlScFZYN1lEc2lnY3pHVGg1QjJHbmUtcDRUNGpuYlNkZ3pzN01tMzJpRTlLNi1CLW1ST0QzSWE4UEV6NkRsRQ&q=https%3A%2F%2Fgist.github.com%2Fmisode%2F57dca050fbe2a0a8232c0c3fbab04e35&v=gZYxhHAN-Ic) and Cloud Wolf's tutorial on the implementation
