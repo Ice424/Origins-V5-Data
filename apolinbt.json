@@ -1,0 +1,47 @@
+{
+    "apoli:powers": {
+        "Powers": [
+            {
+                "Type": "chill:class/fighter/passive/speed",
+                "Factory": "apoli:action_over_time",
+                "Data": 1,
+                "Sources": [
+                    "chill:fighter"
+                ]
+            },
+            {
+                "Type": "chill:class/fighter/passive/strength",
+                "Factory": "apoli:action_over_time",
+                "Data": 1,
+                "Sources": [
+                    "chill:fighter"
+                ]
+            },
+            {
+                "Type": "chill:class/fighter/passive/haste",
+                "Factory": "apoli:action_over_time",
+                "Data2": 1,
+                "Sources": [
+                    "chill:fighter"
+                ]
+            },
+            {
+                "Type": "chill:class/fighter/passive/hearts",
+                "Factory": "apoli:attribute",
+                "Data": {},
+                "Sources": [
+                    "chill:fighter"
+                ]
+            }
+        ]
+    },
+    "origins:origin": {
+        "OriginLayers": [
+            {
+                "Origin": "chill:fighter",
+                "Layer": "origins:origin"
+            }
+        ],
+        "HadOriginBefore": 1
+    }
+}

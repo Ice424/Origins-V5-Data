@@ -1,12 +1,13 @@
-#remove ui elements from players
+# remove ui element items from players
 clear @a *[minecraft:custom_data~{ui_item:{}}]
 
 # future proofing, specifies it is a chest minecart
 scoreboard players set .type ui 1
 
+# Detect player putting items into the UI
 data modify storage ui in set from storage ui current
 data remove storage ui in[{components:{"minecraft:custom_data":{ui_item:{}}}}]
-execute if data storage ui in[0] run return run function ui:menu/on_input
+execute if data storage ui in[0] run return run function chill:menu/on_input
 
 # Using the insert trick to overwrite slots which have been changed.
 data modify storage ui temp set from storage ui previous
@@ -18,7 +19,7 @@ data remove storage ui in
 data modify storage ui in append from storage ui temp[{components:{"minecraft:custom_data":{ui_item:{}}}}]
 # bandage to prevent blank spots from clicking
 execute if data storage ui in[0].components."minecraft:custom_data".ui_item.empty run data remove storage ui in[0]
-execute if data storage ui in[0] unless data storage ui in[1] run return run function ui:menu/on_click
+execute if data storage ui in[0] unless data storage ui in[1] run return run function chill:menu/on_click
 
-#update page & history if nothing happend
-function ui:menu/refresh
+# Update Page & History if nothing happened
+function chill:menu/refresh

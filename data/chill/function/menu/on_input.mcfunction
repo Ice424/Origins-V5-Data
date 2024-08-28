@@ -1,3 +1,3 @@
-execute as @p run function ui:player/return
+execute as @p run function chill:player/return
 
-function ui:menu/refresh
+function chill:menu/refresh
