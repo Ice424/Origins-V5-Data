@@ -47,7 +47,7 @@
     - [ ] no fall damage
     - [ ] Ability to give blindness to anyone in 5 blocks for 4 seconds
     - [ ] Use ability to get speed 3 and strength 2
-    - [x] ~~Get a grappling hook~~
+    - [ ] Get a grappling hook - Is broken currently
   - [ ] Special
     - [ ] Wall climb ability
     - [ ] Used ability to get invisibility for 15 secs, cooldown 45 secs
