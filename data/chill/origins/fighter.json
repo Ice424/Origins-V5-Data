@@ -3,7 +3,8 @@
         "chill:class/fighter/passive/haste",
         "chill:class/fighter/passive/hearts",
         "chill:class/fighter/passive/speed",
-        "chill:class/fighter/passive/strength"
+        "chill:class/fighter/passive/strength",
+        "chill:class/fighter/passive/tag"
     ],
     "icon": {
         "id": "minecraft:iron_sword"

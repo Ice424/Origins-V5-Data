@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "chill:class/cleric/passive/heal",
+        "chill:class/cleric/passive/health",
+        "chill:class/cleric/passive/tag"
+    ],
+    "icon": {
+        "id": "minecraft:dragon_breath"
+    },
+    "impact": 3,
+    "name": "Cleric",
+    "description": "The cleric class"
+}
