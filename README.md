@@ -96,8 +96,9 @@
     - [x] ~~Double damage to hostile mobs~~
     - [x] ~~Permanent saturation~~
     - [x] ~~Permanent hero of the village~~
-    - [x] ~~gain strength 2 and resistance 2 for 10 seconds~~
     - [x] ~~arrows have random harmful effect~~
+  
+    - [x] ~~gain strength 2 and resistance 2 for 10 seconds~~
     - [x] ~~ability to heal 10 and get + 10 temp hearts~~ 
     - [x] ~~ability to get speed 3 for a short duration~~
     - [x] ~~all tameable mobs get tamed within 4 blocks cooldown 30 minutes~~
