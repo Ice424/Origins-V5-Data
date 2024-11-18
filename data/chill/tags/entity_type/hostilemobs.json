@@ -1,5 +1,4 @@
 {
-	"description": "Mobs who always attack players in survival or adventure mode, including piglins even though they can be distracted",
 	"values": [
 		{
 			"id": "minecraft:blaze",

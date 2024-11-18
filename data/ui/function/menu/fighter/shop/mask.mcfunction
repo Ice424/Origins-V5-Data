@@ -1,0 +1,4 @@
+data modify storage ui mask set value [{Slot:0b,id:"minecraft:barrier","components":{"custom_name": "{\"text\": \"Back\", \"color\": \"red\", \"italic\": false}","minecraft:custom_data":{ui_item:{cmd:"function ui:menu/main/root/open"}}}}]
+
+execute unless entity @p[tag=arrows] run data modify storage ui mask insert 0 value {Slot:1b,id:"minecraft:stick","components":{"custom_name": "{\"text\": \"arrows\", \"color\": \"red\", \"italic\": false}", "minecraft:custom_data":{ui_item:{cmd:"function ui:player/close"}}}}
+data modify storage ui mask insert 0 value {Slot:2b,id:"minecraft:barrier","components":{"custom_name": "{\"text\": \"and again\", \"color\": \"red\", \"italic\": false}", "minecraft:custom_data":{ui_item:{cmd:"function ui:player/close"}}}}

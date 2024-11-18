@@ -16,6 +16,10 @@
     "result": {
         "id": "minecraft:stick",
         "count": 1,
-        "components": {"custom_data": "{ui:1b}"}
+        "components": {
+            "custom_data": "{ui:1b}",
+            "custom_name": "{\"text\": \"Power Library\", \"color\": \"light_purple\", \"italic\": false}",
+            "custom_model_data": 1
+        }
     }
 }
