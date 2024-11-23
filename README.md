@@ -63,6 +63,7 @@
     - [ ] Use ability to toggle thorns
     - [ ] Ground pound when taking fall damage, more fall=more damage
     - [ ] big particle shield
+    - [ ] Hog hook
   - [ ] Special
     - [ ] Take half damage from every source
     - [ ] Fire resistance
@@ -123,6 +124,9 @@
 
 ## Thanks to
 the people who helped for helping
+SeriousFce - Power Concepts
+DepoButBad - Textures
+Specific Grass - Texture Concepts
 
 Cloud Wolf for the [Chest Menu/GUI Tutorial in Minecraft 1.21+](https://youtu.be/Sxnaah2SPzw?si=zF8PXbQSoNzrp9PX), [repo](https://github.com/CloudWolfYT/MC-GUIFramework)
 
