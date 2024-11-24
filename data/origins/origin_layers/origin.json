@@ -1,9 +1,11 @@
 {
   "replace": true,
   "origins": [
-    "chill:fighter",
     "chill:cleric",
-    "origins:human"
+    "chill:druid",
+    "chill:fighter",
+    "chill:tank",
+    "chill:wizard"
   ],
   "gui_title": {
     "choose_origin": "Choose a class",

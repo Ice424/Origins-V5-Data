@@ -17,5 +17,6 @@
             "type": "origins:execute_command",
             "command": "tag @s remove speed"
         }
-    ]
+    ],
+    "hidden": true
 }

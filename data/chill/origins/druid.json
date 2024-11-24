@@ -1,0 +1,10 @@
+{
+    "powers": [
+    ],
+    "icon": {
+        "id": "minecraft:small_dripleaf"
+    },
+    "impact": 3,
+    "name": "Druid",
+    "description": "The druid class"
+}

@@ -1,0 +1,11 @@
+{
+    "powers": [
+        "chill:class/wizard/passive/glow"
+    ],
+    "icon": {
+        "id": "minecraft:enchanted_book"
+    },
+    "impact": 3,
+    "name": "Wizard",
+    "description": "The wizard class"
+}
