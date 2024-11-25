@@ -8,9 +8,15 @@
         {
             "type": "origins:execute_command",
             "command": "tag @s remove fighter"
-        },{
+        },
+        {
             "type": "origins:execute_command",
             "command": "tag @s remove ddamgemobs"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove speed"
         }
-    ]
+    ],
+    "hidden": true
 }

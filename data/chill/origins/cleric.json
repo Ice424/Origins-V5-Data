@@ -5,7 +5,7 @@
         "chill:class/cleric/passive/tag"
     ],
     "icon": {
-        "id": "minecraft:dragon_breath"
+        "id": "minecraft:lectern"
     },
     "impact": 3,
     "name": "Cleric",

@@ -1,0 +1,3 @@
+data modify storage ui mask set value [{Slot:0b,id:"minecraft:barrier","components":{"custom_name": "{\"text\": \"Back\", \"color\": \"red\", \"italic\": false}","minecraft:custom_model_data":2, "minecraft:custom_data":{ui_item:{cmd:"function ui:menu/main/root/open"}}}}]
+
+execute if entity @p[tag=fighter] run data modify storage ui mask insert 0 value {Slot:15b,id:"minecraft:iron_sword","components":{"custom_name": "{\"text\": \"Class\", \"color\": \"yellow\", \"italic\": false}", "minecraft:custom_data":{ui_item:{cmd:"function ui:menu/class/fighter/shop/open"}}}}

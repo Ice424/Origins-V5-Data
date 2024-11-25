@@ -7,5 +7,6 @@
     "entity_action_lost": {
         "type": "origins:execute_command",
         "command": "tag @s remove cleric"
-    }
+    },
+    "hidden": true
 }

@@ -1,0 +1,10 @@
+{
+    "powers": [
+    ],
+    "icon": {
+        "id": "minecraft:shield"
+    },
+    "impact": 3,
+    "name": "Tank",
+    "description": "The tank class"
+}
