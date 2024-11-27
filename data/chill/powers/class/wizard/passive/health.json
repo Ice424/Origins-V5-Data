@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "id": "chill:max_health_decrease",
+        "attribute": "minecraft:generic.max_health",
+        "amount": -2,
+        "operation": "add_value"
+    },
+    "name": "Health",
+    "description": "you have 9 hearts"
+}

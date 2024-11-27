@@ -1,5 +1,7 @@
 {
     "type": "origins:action_on_hit",
+    "name": "Spectral shot",
+    "description": "All the projectiles you shoot inflict glowing",
     "damage_condition": {
         "type": "origins:projectile",
         "damage_condition": {

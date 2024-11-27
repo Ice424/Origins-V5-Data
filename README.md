@@ -24,7 +24,7 @@
     - [ ] You are fast in water and on grass blocks
 - [ ] Wizard
   - [ ] Passive
-    - [ ] Shoot someone to apply glowing,
+    - [x] ~~Shoot someone to apply glowing~~
     - [ ] 8 hearts
     - [ ] shift to get ender pearl cooldown 60 secs 
   - [ ] High
