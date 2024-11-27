@@ -16,12 +16,14 @@
   - [ ] High
     - [ ] Use ability to shoot 9 arrows 360 degrees
     - [ ] Can breathe underwater
-    - [ ] Give people hunger and poison within 7 blocks far, 4 blocks wide range cone
+    - [ ] Give people hunger and poison within 7 blocks far, FOV
+    - [ ] Climbing on walls (render vines?)
   - [ ] Special
     - [ ] Ability to stop all mobs movement around you
     - [ ] Free bone meal (yippee)
     - [ ] Passive mobs will attack hostile mob if you are nearby
-    - [ ] You are fast in water and on grass blocks
+    - [ ] You are fast in water and on grass block
+    - [ ] spread sculk deals dmg
 - [ ] Wizard
   - [ ] Passive
     - [x] ~~Shoot someone to apply glowing~~
@@ -102,7 +104,7 @@
     - [x] ~~gain strength 2 and resistance 2 for 10 seconds~~
     - [x] ~~ability to heal 10 and get + 10 temp hearts~~ 
     - [x] ~~ability to get speed 3 for a short duration~~
-    - [x] ~~all tameable mobs get tamed within 4 blocks cooldown 30 minutes~~
+
 - [x] ~~Low tier~~
   - [x] ~~+ half a heart (to 5 hearts)~~
   - [x] ~~+ xp (20 Levels)~~
@@ -120,7 +122,13 @@
   - [x] ~~scan (give all entities in 20 block glowing for 2 seconds)~~
   - [x] ~~make 1 block taller~~
   - [x] ~~make half a block shorter but loose 2 hearts (4 health)~~
+  - [ ] all tameable mobs get tamed within 4 blocks cooldown 30 minutes
 
+
+
+
+### Unused
+ 
 
 ## Thanks to
 the people who helped for helping
