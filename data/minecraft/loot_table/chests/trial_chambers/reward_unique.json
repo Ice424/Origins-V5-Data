@@ -1,0 +1,60 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:command_block",
+                    "weight": 2,
+                    "quality": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 1,
+                                "minecraft:custom_name": "{\"text\": \"Origin Essence\", \"color\": \"aqua\", \"italic\": false}"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 4,
+                    "": ""
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bolt_armor_trim_smithing_template",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:guster_banner_pattern",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_precipice",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:trident"
+                }
+            ],
+            "rolls": 1
+        }
+    ],
+    "random_sequence": "minecraft:chests/trial_chambers/reward_unique"
+}
