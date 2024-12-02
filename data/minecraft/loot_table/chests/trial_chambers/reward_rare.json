@@ -7,7 +7,6 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:command_block",
-                    "expand": false,
                     "weight": 4,
                     "quality": 3,
                     "functions": [
