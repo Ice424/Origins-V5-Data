@@ -132,8 +132,9 @@
 
 ## Thanks to
 the people who helped for helping
-SeriousFce - Power Concepts
+Gumbo - Power Concepts
 DepoButBad - Textures
+Box cat - Texture Concepts
 Specific Grass - Texture Concepts
 
 Cloud Wolf for the [Chest Menu/GUI Tutorial in Minecraft 1.21+](https://youtu.be/Sxnaah2SPzw?si=zF8PXbQSoNzrp9PX), [repo](https://github.com/CloudWolfYT/MC-GUIFramework)
