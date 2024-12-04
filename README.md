@@ -1,4 +1,4 @@
-# ChillOrigins V5
+# Origins 5e
 ## An origins DataPack created for the chill server origins thing
 
 
