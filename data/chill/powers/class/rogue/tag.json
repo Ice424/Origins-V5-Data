@@ -1,0 +1,26 @@
+{
+    "types": "origins:action_on_callback",
+    "entity_action_gained": {
+        "types": "origins:execute_command",
+        "command": "tag @s add rogue"
+    },
+    "entity_action_lost": [
+        {
+            "types": "origins:execute_command",
+            "command": "tag @s remove no_nametag"
+        },
+        {
+            "types": "origins:execute_command",
+            "command": "tag @s remove silent_footsteps"
+        },
+        {
+            "types": "origins:execute_command",
+            "command": "tag @s remove longmob_aggro"
+        },
+        {
+            "types": "origins:execute_command",
+            "command": "tag @s remove less_hearts"
+        }
+    ],
+    "hidden": true
+}

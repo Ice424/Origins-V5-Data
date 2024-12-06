@@ -131,7 +131,8 @@
  
 
 ## Thanks to
-the people who helped for helping
+The people who helped for helping
+
 Gumbo - Power Concepts
 DepoButBad - Textures
 Box cat - Texture Concepts

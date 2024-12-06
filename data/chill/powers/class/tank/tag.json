@@ -1,0 +1,22 @@
+{
+    "types": "origins:action_on_callback",
+    "entity_action_gained": {
+        "types": "origins:execute_command",
+        "command": "tag @s add tank"
+    },
+    "entity_action_lost": [
+        {
+            "types": "origins:execute_command",
+            "command": "tag @s remove temp"
+        },
+        {
+            "types": "origins:execute_command",
+            "command": "tag @s remove saturation"
+        },
+        {
+            "types": "origins:execute_command",
+            "command": "tag @s remove resistance"
+        }
+    ],
+    "hidden": true
+}
