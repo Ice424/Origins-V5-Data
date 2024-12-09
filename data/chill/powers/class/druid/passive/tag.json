@@ -2,24 +2,16 @@
     "types": "origins:action_on_callback",
     "entity_action_gained": {
         "types": "origins:execute_command",
-        "command": "tag @s add wizard"
+        "command": "tag @s add druid"
     },
     "entity_action_lost": [
         {
             "types": "origins:execute_command",
-            "command": "tag @s remove health"
+            "command": "tag @s remove animals_follow"
         },
         {
             "types": "origins:execute_command",
-            "command": "tag @s remove pearl"
-        },
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove glow"
-        },
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove gain_enderpearl"
+            "command": "tag @s remove foliage_heal"
         },
         {
             "types": "origins:execute_command",
@@ -27,7 +19,7 @@
         },
         {
             "types": "origins:execute_command",
-            "command": "tag @s remove hit_glow"
+            "command": "tag @s remove vegetarian"
         }
     ],
     "hidden": true
