@@ -4,23 +4,6 @@
         "types": "origins:execute_command",
         "command": "tag @s add druid"
     },
-    "entity_action_lost": [
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove animals_follow"
-        },
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove foliage_heal"
-        },
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove less_hearts"
-        },
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove vegetarian"
-        }
-    ],
+    "entity_action_lost": [],
     "hidden": true
 }

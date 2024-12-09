@@ -60,22 +60,6 @@
         {
             "types": "origins:execute_command",
             "command": "tag @s remove strength"
-        },
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove haste"
-        },
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove more_hearts"
-        },
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove speed"
-        },
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove strength"
         }
     ],
     "hidden": true

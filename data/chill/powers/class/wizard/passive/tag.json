@@ -16,18 +16,6 @@
         {
             "types": "origins:execute_command",
             "command": "tag @s remove pearl"
-        },
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove gain_enderpearl"
-        },
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove hit_glow"
-        },
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove less_hearts"
         }
     ],
     "hidden": true

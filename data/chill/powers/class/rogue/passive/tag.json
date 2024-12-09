@@ -4,23 +4,6 @@
         "types": "origins:execute_command",
         "command": "tag @s add rogue"
     },
-    "entity_action_lost": [
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove less_hearts"
-        },
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove longmob_aggro"
-        },
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove no_nametag"
-        },
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove silent_footsteps"
-        }
-    ],
+    "entity_action_lost": [],
     "hidden": true
 }

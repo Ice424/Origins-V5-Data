@@ -4,15 +4,6 @@
         "types": "origins:execute_command",
         "command": "tag @s add tank"
     },
-    "entity_action_lost": [
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove resistance"
-        },
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove saturation"
-        }
-    ],
+    "entity_action_lost": [],
     "hidden": true
 }

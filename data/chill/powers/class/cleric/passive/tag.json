@@ -36,14 +36,6 @@
         {
             "types": "origins:execute_command",
             "command": "tag @s remove health"
-        },
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove healing_field"
-        },
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove less_hearts"
         }
     ],
     "hidden": true
