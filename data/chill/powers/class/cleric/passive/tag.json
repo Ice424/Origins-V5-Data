@@ -7,15 +7,15 @@
     "entity_action_lost": [
         {
             "types": "origins:execute_command",
+            "command": "tag @s remove see"
+        },
+        {
+            "types": "origins:execute_command",
             "command": "tag @s remove death"
         },
         {
             "types": "origins:execute_command",
             "command": "tag @s remove luck"
-        },
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove see"
         },
         {
             "types": "origins:execute_command",
@@ -31,11 +31,19 @@
         },
         {
             "types": "origins:execute_command",
+            "command": "tag @s remove health"
+        },
+        {
+            "types": "origins:execute_command",
             "command": "tag @s remove heal"
         },
         {
             "types": "origins:execute_command",
-            "command": "tag @s remove health"
+            "command": "tag @s remove healing_field"
+        },
+        {
+            "types": "origins:execute_command",
+            "command": "tag @s remove less_hearts"
         }
     ],
     "hidden": true
